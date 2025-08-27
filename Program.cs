@@ -9,7 +9,7 @@ namespace PackFixer
     {
         static void Main(string[] args)
         {
-            // baseDir = 程序运行所在目录（替换工具根目录）
+            // baseDir = 程序运行所在目录（替换工具根目录）/
             string baseDir = AppDomain.CurrentDomain.BaseDirectory.TrimEnd(Path.DirectorySeparatorChar);
 
             // 固定子目录
